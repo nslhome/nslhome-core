@@ -1,0 +1,19 @@
+{
+  "name": "nslhome-core",
+  "version": "1.0.0",
+  "description": "Core library for the nslhome platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Largent <nicklargent@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mongodb": "*",
+    "servicebus": "*"
+  },
+  "devDependencies": {
+    "env2": "^2.0.6"
+  }
+}
