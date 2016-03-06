@@ -1,6 +1,6 @@
-var provider = require('./index').provider();
+var provider = require('./index').provider("test-provider");
 var deviceManager = require('./index').DeviceMangager;
-var logger = require('./index').logger('test', {mongoOutput: false});
+var logger = require('./index').logger('test-provider', {mongoOutput: false});
 
 
 // controller
@@ -13,7 +13,7 @@ deviceManager.watchDevice('test:1', function(update) {
 
 // provider
 
-provider.initialize("test-provider", "test1", function(err, config) {
+provider.initialize("test1", function(err, config) {
     if (err) {
         logger.error(err);
         process.exit(1);
