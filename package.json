@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1",
-    "mongodb": "*",
-    "servicebus": "*",
+    "mongodb": "^2.1.4",
+    "servicebus": "^1.0.19",
     "env2": "^2.0.6"
   }
 }
