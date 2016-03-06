@@ -1,4 +1,3 @@
-require('env2')('.env');
 var provider = require('./index').provider();
 var deviceManager = require('./index').DeviceMangager;
 var logger = require('./index').logger('test', {mongoOutput: false});

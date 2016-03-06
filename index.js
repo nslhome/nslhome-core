@@ -1,3 +1,5 @@
+require('env2')('.nslhome.env');
+
 exports = module.exports = nslhome_core = {};
 
 nslhome_core.Logger = require('./lib/logger');

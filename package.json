@@ -11,9 +11,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "mongodb": "*",
-    "servicebus": "*"
-  },
-  "devDependencies": {
+    "servicebus": "*",
     "env2": "^2.0.6"
   }
 }
