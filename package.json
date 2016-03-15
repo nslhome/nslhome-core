@@ -11,7 +11,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "mongodb": "^2.1.4",
-    "servicebus": "^1.0.19",
-    "env2": "^2.0.6"
+    "nconf": "^0.8.4",
+    "servicebus": "^1.0.19"
   }
 }
